@@ -1,0 +1,70 @@
+
+
+.TodoItem {
+    background-color: white; /* Fondo claro para las tareas */
+    /* Fondo semi-transparente */    position: relative;
+    border-radius: 15px; /* Bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #CCC;  */
+    margin: 50px auto; /* Márgenes */
+    padding: 10px; /* Espaciado interno */
+    max-width: 650px; /* Ancho máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    color: #000000;
+    top: 20px; /* Ajusta este valor según sea necesario */
+    transition: box-shadow 0.3s, transform 0.3s; /* Transición suave */
+    
+
+}
+
+.TodoItem:hover{
+    box-shadow: 15px 15px 2px rgba(0, 0, 0, 1); /* Sombra negra en la parte inferior y derecha */
+    transform: translateY(-2px); /* Leve elevación al hacer hover */
+}
+
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+
+.Icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: bold;
+}
+
+.Icon-check{
+    position: absolute;
+    left: 12px;
+    font-weight: 600;
+   
+}
+.Icon-check--active{
+    color: rgb(73, 196, 73);
+}
+
+.Icon-delete{
+    position: absolute;
+    top: -24px;
+    right: 0;
+    color: gray;
+}
+
+.Icon-delete:hover {
+    color: red;
+}

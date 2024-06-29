@@ -1,0 +1,72 @@
+.TodoCounter {
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+    font-size: 36px; /* Tamaño de fuente */
+    color: #84bdfa;
+    text-align: center; /* Alineación centrada */
+    margin-bottom: 20px; /* Espaciado inferior */
+    position: relative; /* Posición relativa para los efectos */
+    transition: color 0.3s, transform 0.3s; /* Transición suave */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+
+}
+
+.TodoCounter:hover {
+    transform: scale(1.05); /* Aumento de escala al pasar el mouse */
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #007BFF, 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 40px #007BFF;
+    }
+    50% {
+        text-shadow: 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 40px #007BFF, 0 0 80px #007BFF;
+    }
+    100% {
+        text-shadow: 0 0 5px #007BFF, 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 40px #007BFF;
+    }
+}
+
+.TodoCounter.glow {
+    animation: glow 2.0s infinite alternate; /* Aplicación de la animación */
+}
+
+.TodoCounter span{
+    font-weight: bold;
+}
+
+.title{
+    font-size : 24px;
+    color: #FFFFFF; /* Color del texto */
+    text-align : center;
+    margin-bottom: 50px; /* Ajusta este valor según sea necesario */
+    font-family: 'Montserrat';
+}
+
+
+.title {
+    font-size : 24px;
+    color: #FFFFFF; /* Color del texto */
+    text-align : center;
+    margin-bottom: 50px; /* Ajusta este valor según sea necesario */
+    font-family: 'Montserrat';
+    position: relative; /* Posición relativa para los efectos */
+    animation: colorChange 9s infinite; /* Aplicación de la animación */
+    transition: transform 0.5s; /* Transición suave */
+}
+
+@keyframes colorChange {
+    0% {
+        color: #FFD700; /* Dorado */
+    }
+    25% {
+        color: #00FFFF; /* Cian */
+    }
+    50% {
+        color: #FF00FF; /* Magenta */
+    }
+    75% {
+        color: #32CD32; /* Verde lima */
+    }
+    100% {
+        color: #FFD700; /* Dorado */
+    }
+}

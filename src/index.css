@@ -1,13 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  background-image: url('../public/mountains-monochrome-dark-sunset-night-minimalism-120202-wallhere.com.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+  font-family: 'Monserrrat',Arial,Helvetica,
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }
