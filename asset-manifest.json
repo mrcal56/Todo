@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Todo/static/css/main.70fa0a46.css",
+    "main.js": "/Todo/static/js/main.052dbbc8.js",
+    "static/media/mountains-monochrome-dark-sunset-night-minimalism-120202-wallhere.com.png": "/Todo/static/media/mountains-monochrome-dark-sunset-night-minimalism-120202-wallhere.com.db9f5d02a6cdfe3eb5a1.png",
+    "index.html": "/Todo/index.html",
+    "main.70fa0a46.css.map": "/Todo/static/css/main.70fa0a46.css.map",
+    "main.052dbbc8.js.map": "/Todo/static/js/main.052dbbc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70fa0a46.css",
+    "static/js/main.052dbbc8.js"
+  ]
+}
